@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/red"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -11,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="25dp"
-        android:background="@color/card_foreground"
+        android:background="@color/red"
         app:cardCornerRadius="25dp"
         android:elevation="20dp">
 
@@ -27,7 +28,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="60dp"
-                android:src="@drawable/avatar_9"/>
+                android:src="@drawable/avatar_10"/>
 
             <TextView
                 android:id="@+id/profile_name"
@@ -38,8 +39,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginTop="50dp"
                 tools:text="First Last"
-                android:textSize="24sp"
-                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold"
                 android:textAllCaps="true"/>
 
@@ -64,7 +65,7 @@
                 android:layout_marginTop="50dp"
                 android:text="@string/profile_hobby_header_text"
                 android:textSize="18sp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/profile_hobby_first"
